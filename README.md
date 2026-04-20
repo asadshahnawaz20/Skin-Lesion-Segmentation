@@ -76,7 +76,7 @@ Our Approach:     Image → Model → "Lesion detected" + WHY ✅
 | 7 | 0.1843 | 0.1740 | 0.8488 |
 | **10** | **0.1708** | **0.1663** | **0.8538** |
 
-![Training Curves](Results\training_curves.png)
+![Training Curves](Results/training_curves.png)
 
 ---
 
