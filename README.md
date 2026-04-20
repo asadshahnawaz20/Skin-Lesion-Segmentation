@@ -130,7 +130,7 @@ PURE-Skin-Lesion-Segmentation/
 
 ```bash
 # Clone repository
-git clone https://github.com/AsadChanna/Skin-Lesion-Segmentation.git
+git clone https://github.com/asadshahnawaz20/Skin-Lesion-Segmentation.git
 cd Skin-Lesion-Segmentation
 
 # Install dependencies
