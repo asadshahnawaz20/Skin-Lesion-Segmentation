@@ -1,0 +1,22 @@
+
+========================================
+U-NET MODEL SUMMARY FOR PURE PROJECT
+========================================
+
+Dataset: ISIC 2018 Skin Lesion Segmentation
+Training samples: 2075
+Validation samples: 519
+Epochs trained: 10
+Best Dice Score: 0.8538 (85.4%)
+
+Interpretation:
+- Dice score of 0.8538 means the model's predictions
+  overlap with ground truth by 85.4%
+- This is considered GOOD for medical image segmentation
+
+Files saved for report:
+1. unet_results.png - 4 samples with predictions
+2. training_curves.png - Training history
+3. model_metrics.csv - Numerical results
+
+========================================
