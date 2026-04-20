@@ -1,8 +1,7 @@
-```markdown
 <div align="center">
 
 # 🩺 Explainable Skin Lesion Segmentation
-### U-Net + Grad-CAM | ISIC 2018 
+### U-Net + Grad-CAM | ISIC 2018
 
 [![Python](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0-red.svg)](https://pytorch.org/)
@@ -40,7 +39,11 @@ This project builds an **explainable AI pipeline** that:
 
 ## 🏗️ Architecture
 
-![U-Net Architecture](Results/unet_architecture.png)
+<div align="center">
+<img src="Results/unet_architecture.png" width="700"/>
+
+*U-Net encoder-decoder architecture with skip connections*
+</div>
 
 **31M parameters | Sigmoid output | ReLU hidden layers**
 
@@ -60,9 +63,11 @@ Our Approach:     Image → Model → "Lesion detected" + WHY ✅
 🔵 Blue / Purple →  Model ignores this  (background)
 ```
 
-![Grad-CAM Results](Results\gradcam_heatmaps.png)
+<div align="center">
+<img src="Results/gradcam_heatmaps.png" width="800"/>
 
 *Model correctly focuses on lesion boundaries — not hair or artifacts*
+</div>
 
 ---
 
@@ -76,15 +81,19 @@ Our Approach:     Image → Model → "Lesion detected" + WHY ✅
 | 7 | 0.1843 | 0.1740 | 0.8488 |
 | **10** | **0.1708** | **0.1663** | **0.8538** |
 
-![Training Curves](Results/training_curves.png)
+<div align="center">
+<img src="Results/training_curves.png" width="700"/>
+</div>
 
 ---
 
 ## 🔬 Sample Predictions
 
-![Predictions](Results/unet_predictions.png)
+<div align="center">
+<img src="Results/unet_predictions.png" width="800"/>
 
 *Left → Right: Original Image | Ground Truth | Model Prediction*
+</div>
 
 ---
 
@@ -97,20 +106,20 @@ PURE-Skin-Lesion-Segmentation/
 │   ├── 01_data_preparation.ipynb
 │   └── 02_unet_gradcam.ipynb
 │
-├── 📊 results/
+├── 📊 Results/
+│   ├── unet_architecture.png
 │   ├── gradcam_heatmaps.png
 │   ├── training_curves.png
-│   └── unet_results.png
+│   └── unet_predictions.png
 │
 ├── 🧠 models/
 │   └── best_unet_model.pth
 │
 ├── 📄 Data/
-│   └── train_data.csv
+│   ├── train_data.csv
 │   ├── train_bboxes.csv
 │   ├── val_data.csv
 │   └── val_bboxes.csv
-│   ├── test_data.csv
 │
 └── 📖 README.md
 ```
@@ -121,8 +130,8 @@ PURE-Skin-Lesion-Segmentation/
 
 ```bash
 # Clone repository
-git clone https://github.com/your-username/-Skin-Lesion-Segmentation.git
-cd PURE-Skin-Lesion-Segmentation
+git clone https://github.com/AsadChanna/Skin-Lesion-Segmentation.git
+cd Skin-Lesion-Segmentation
 
 # Install dependencies
 pip install -r requirements.txt
@@ -131,7 +140,7 @@ pip install -r requirements.txt
 jupyter notebook notebooks/02_unet_gradcam.ipynb
 ```
 
-**Or run directly on Kaggle** → No setup needed ✅
+**Or run directly on Kaggle → No setup needed ✅**
 
 ---
 
@@ -142,7 +151,6 @@ PyTorch 2.0  |  Grad-CAM  |  OpenCV  |  NumPy  |  Matplotlib
 ```
 
 ---
-
 
 ## 🙏 Acknowledgments
 
@@ -164,9 +172,9 @@ PyTorch 2.0  |  Grad-CAM  |  OpenCV  |  NumPy  |  Matplotlib
 
 ⭐ **Star this repo if it helped you!** ⭐
 
-</div>
-```
 
----
+</div>
+
+
 
 
