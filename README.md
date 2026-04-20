@@ -40,7 +40,7 @@ This project builds an **explainable AI pipeline** that:
 
 ## 🏗️ Architecture
 
-![U-Net Architecture](Results\unet_architecture.png)
+![U-Net Architecture](Results/unet_architecture.png)
 
 **31M parameters | Sigmoid output | ReLU hidden layers**
 
@@ -82,7 +82,7 @@ Our Approach:     Image → Model → "Lesion detected" + WHY ✅
 
 ## 🔬 Sample Predictions
 
-![Predictions](Results\unet_predictions.png)
+![Predictions](Results/unet_predictions.png)
 
 *Left → Right: Original Image | Ground Truth | Model Prediction*
 
